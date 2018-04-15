@@ -18,7 +18,7 @@ public class TestMall {
                     "123456");
             Statement s =connection.createStatement();
         ){
-            for (int i=0;i<10;i++){
+            for (int i=0;i<100;i++){
             String sqlFormat= "insert into category value(null,'测试分类%d')";
             String sql=String.format(sqlFormat,i);
             s.execute(sql);

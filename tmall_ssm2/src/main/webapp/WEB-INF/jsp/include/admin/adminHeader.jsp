@@ -61,10 +61,10 @@ $(function(){
 		if("true"==deleteLink){
 			var confirmDelete = confirm("确认要删除");
 			if(confirmDelete)
-				return true;
-			return false;
-			
-		}
+                return true;
+            return false;
+
+        }
 	});
 })
 </script>	

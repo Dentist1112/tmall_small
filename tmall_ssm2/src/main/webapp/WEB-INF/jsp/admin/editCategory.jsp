@@ -12,7 +12,6 @@
 
 <script>
     $(function(){
-
         $("#editForm").submit(function(){
             if(!checkEmpty("name","分类名称"))
                 return false;
